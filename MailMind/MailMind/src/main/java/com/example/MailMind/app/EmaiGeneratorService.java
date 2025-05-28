@@ -18,7 +18,7 @@ public class EmaiGeneratorService {
     private String geminiApiUrl="https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=";
 
     //@Value("$(gemini.api.key)")
-    private String geminiApiKey="AIzaSyCXKtk_Hh0bmHVMi7tde4pQLP5f7cbu6VY";
+    private String geminiApiKey="write your own generated key";
 
     public EmaiGeneratorService(WebClient.Builder webClientBuilder) {
         this.webClient = webClientBuilder.build();
